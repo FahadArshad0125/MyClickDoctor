@@ -1,37 +1,52 @@
-SCERT Teacher Counseling System
-The SCERT Teacher Counseling System is a web-based platform designed to streamline the counseling and posting process for SCERT teachers. This project is developed for the UP Government to ensure efficient and transparent teacher assignments.
+MYCLICKDOCTOR is an online platform that enables patients to consult with doctors remotely via video calls. The application facilitates seamless communication between healthcare providers and patients, ensuring convenient and efficient medical consultations.
 Features
-•	Teacher Registration – Teachers can register and provide their details.
-•	Counseling Process – Automated counseling for teacher postings.
-•	Merit-Based Allocation – Assignments based on predefined merit criteria.
-•	Document Management – Upload and verify teacher documents.
-•	Admin Panel – Manage teacher applications and postings.
-•	Notifications – Real-time alerts for teachers regarding counseling updates.
+•	Doctor & Patient Registration – Users can sign up as doctors or patients.
+•	Appointment Scheduling – Patients can book appointments with available doctors.
+•	Secure Video Consultations – Powered by Jitsi for real-time video calls.
+•	Chat & Messaging – Secure communication between doctors and patients using SignalR.
+•	Medical Records Management – Patients can upload and store their medical history.
+•	Payment Integration – Barion payment gateway for secure online transactions.
 Tech Stack
-•	Framework: MVC .NET
+•	Frontend: Angular (MUI Tools, TypeScript)
+•	Backend: .NET Core
 •	Database: SQL Server
-•	Authentication: Identity-based authentication
-•	Frontend: Razor Views / HTML, CSS, JavaScript
-•	Deployment: IIS Server
+•	Video Call: Jitsi
+•	Chat: SignalR
+•	Storage: AWS S3 (for storing files and medical records)
+•	Task Management: Celery (for background tasks like document conversion using LibreOffice)
+•	Payment Gateway: Barion
 Installation
 Prerequisites
-•	.NET Framework installed
-•	SQL Server configured
-•	IIS setup for hosting
+•	.NET Core installed
+•	Node.js and npm installed
+•	AWS S3 configured for file storage
+•	Jitsi configured for video calls
+•	SignalR configured for real-time chat
+•	Barion payment gateway setup
+•	Celery and Redis configured for task management
+
+
+
+
 Setup
 Backend
 cd backend
-# Build the application
-dotnet build
+# Install dependencies
+dotnet restore
 # Run the application
 dotnet run
-Database Setup
-•	Restore the database using the provided SQL script.
-•	Update the connection string in appsettings.json.
+Frontend
+cd frontend
+# Install dependencies
+npm install
+# Start the frontend
+ng serve
 Configuration
-•	SMTP: Configure for email notifications.
-•	Logging: Enable logging for application monitoring.
-•	Authentication: Set up role-based access control for teachers and admins.
+•	Jitsi: Set up a Jitsi server or use the Jitsi Meet API.
+•	AWS S3: Configure storage credentials for file uploads.
+•	LibreOffice & Celery: Ensure LibreOffice is installed and Celery workers are running for document processing.
+•	SignalR: Set up SignalR for real-time chat between users.
+•	Barion: Configure Barion API keys for payment processing.
 Contributing
 Contributions are welcome! Please follow these steps:
 1.	Fork the repository.
@@ -41,7 +56,11 @@ Contributions are welcome! Please follow these steps:
 License
 This project is licensed under the MIT License.
 Contact
-For any inquiries, please contact devs@theindevs.com.
+For any inquiries, please contact .
+________________________________________
+Note: This project is running in Hungary.
+
+
 
 
 
