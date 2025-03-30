@@ -86,14 +86,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   // var firebaseConfig = {
-  //   apiKey: "AIzaSyCs2d4t9zbyX_T8uLjN-1wMIL9a8dA4Ytw",
-  //   authDomain: "myclickdoctor.firebaseapp.com",
-  //   databaseURL: "https://myclickdoctor.firebaseio.com",
-  //   projectId: "myclickdoctor",
-  //   storageBucket: "myclickdoctor.appspot.com",
+  //   apiKey: "IIIIIIIIII-1wMIL9a8dA4Ytw",
+  //   authDomain: "myclickdoctor.JN.com",
+  //   databaseURL: "https://KKLNL.N.com",
+  //   projectId: "NJBJB",
+  //   storageBucket: "myclickdoctor.JKNJKNJK.com",
   //   messagingSenderId: "442620068561",
-  //   appId: "1:442620068561:web:1cde7ac5ba1d60020ebbf0",
-  //   measurementId: "G-004B4QQMGT"
+  //   appId: "1:442620068561:web: BJBJBBK",
+  //   measurementId: "G-NJKNJK"
   // };
   // Initialize Firebase
   // firebase.initializeApp(firebaseConfig);
